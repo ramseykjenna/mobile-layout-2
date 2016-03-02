@@ -3,6 +3,38 @@ nav {
     background-color: #118BC0;
 }
 
+.logo {
+    display: inline-block;
+    float: left;
+    height: 70%;
+    width: 6em;
+    background-color: white;
+    margin-left: 2em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.title {
+    display: inline-block;
+    float: left;
+    height: 70%;
+    width: 17em;
+    background-color: white;
+    margin-left: 2em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.login {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    width: 12em;
+    background-color: #0070A4;
+}
+
 .main {
     height: auto;
     background-color: #344051;
