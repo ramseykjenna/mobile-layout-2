@@ -9,7 +9,7 @@ nav {
     display: inline-block;
     float: left;
     height: 70%;
-    width: 6em;
+    width: 5em;
     background-color: white;
     margin-left: 2em;
     position: relative;
@@ -20,10 +20,9 @@ nav {
 .title {
     display: inline-block;
     float: left;
-    height: 70%;
-    width: 17em;
-    background-color: white;
-    margin-left: 2em;
+    color: white;
+    font-size: 3em;
+    margin-left: .5em;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -35,7 +34,19 @@ nav {
     height: 100%;
     width: 12em;
     background-color: #0070A4;
+    text-align: center;
 }
+
+.login-text {
+    color: white;
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
 
 /* ---------- Main Section ---------- */
 
@@ -46,7 +57,7 @@ nav {
     padding-bottom: 5em;
 }
 
-h1 {
+.welcome-title {
     margin: 0;
     color: white;
     font-size: 4.5em;
@@ -55,12 +66,12 @@ h1 {
     text-align: center;
 }
 
-h2 {
+.welcome-sub {
     color: white;
-    font-size: 2.25em;
+    font-size: 1.5em;
     font-weight: normal;
     text-align: center;
-    padding: 0 5em 0 5em;
+    padding: 0 1em 0 1em;
     margin: 0;
 }
 
@@ -68,11 +79,18 @@ button {
     height: 9em;
     width: 50%;
     background-color: #1E8CBE;
+    
+    
     border: 1.5em solid #212934;
     margin-top: 4em;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.button-text {
+	color: white;
+	font-size: 2.5em;
 }
 
 .scroll {
@@ -86,35 +104,46 @@ button {
     transform: translateX(-50%);
 }
 
+
 /* ---------- Features Section ---------- */
 
 .features {
     margin-bottom: 5em;
-    background-color: white;
     height: 10em;
     width: 80%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
 }
+
 .feature-icon {
     height: 8.5em;
     width: 18%;
     display: inline-block;
-    background-color: #616E7F;
-    margin-top: 1.5em;
+    background-color: white;
 }
 
 .feature-description {
     height: 8.5em;
     width: 78%;
     display: inline-block;
-    background-color: #616E7F;
     float: right;
-    margin-bottom: 1.5em;
     margin-right: .5em;
-    
 }
+
+.feature-title {
+    color: white;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: .5em
+}
+
+.feature-sub {
+    color: #C7C8C8;
+    font-size: 2em;
+    margin-top: 0;
+}
+
 
 /* ---------- Information Section ---------- */
 
@@ -123,6 +152,13 @@ button {
     background-color: #E8F0F5;
     padding: 3em;
 }
+
+p {
+	color: black;
+	font-size: 3.35em;
+	text-align: center;
+}
+
 
 /* ---------- Services Section ---------- */
 
@@ -141,28 +177,33 @@ button {
     transform: translateX(-50%);
     margin-bottom: 4em;
     padding: 2em;
+    text-align: center;
 }
+
 .service-icon {
-	height: 8em;
-	width: 8em;
-	background-color: #C2CCD2;
-	margin-top: 1em;
-	position: relative;
-	left:50%;
-	transform:translateX(-50%);
+    height: 8em;
+    width: 8em;
+    background-color: #C2CCD2;
+    margin-top: 1em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .service-title {
-	height: 3em;
-	background-color: #C2CCD2;
-	margin-top: 2em;
-	margin-bottom: 2em;
+    color: #415F74;
+    font-size: 3em;
+    margin-top: 1em;
+  
 }
 
 .service-sub {
-	height: 8em;
-	background-color: #C2CCD2;
+    color: #4C4A4F;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
+
 
 /* ---------- Information 2 Section ---------- */
 
@@ -173,8 +214,25 @@ button {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 13em;
+    margin-top: 7em;
+    text-align: center;
 }
+
+.power {
+	color: #4C4A4F;
+	font-size: 3em;
+}
+
+.create-button-text {
+	color: white;
+    font-size: 3em;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 /* ---------- Footer Section ---------- */
 
@@ -205,18 +263,3 @@ button {
     transform: translateX(-50%);
     margin-top: 3em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
